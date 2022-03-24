@@ -73,6 +73,7 @@ body {
 	font-size: 1.7rem;
 	line-height: 3rem;
 	color: black;
+	background-color: rgb(48, 48, 48);
 }
 
 /**
@@ -100,7 +101,7 @@ a:hover, a:focus, a:active {
  */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "poppins-semibold", sans-serif;
-	color: #313131;
+	color: #26cdff;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -278,9 +279,6 @@ ul {
 li {
 	display: list-item;
 }
-ol, ul {
-	margin-left: 1.7rem;
-}
 ul li {
 	padding-left: .4rem;
 }
@@ -323,6 +321,7 @@ table {
 	width: 100%;
 	max-width: 100%;
 	font-family: "lora-regular", sans-serif;
+	font-weight: bold;
 }
 th, td {
 	padding: 1.5rem 3rem !important;
@@ -1755,18 +1754,50 @@ header .logo a {
 /*#SFparlote{
 	top: 2099px !important;
 }*/
+.perso-img{
+	margin-left: 20px;
+	max-width: 20%;
+}
+.img2{
+	max-width: 14%;
+}
+.txt-list{
+	margin: auto;
+}
+.perso-picture{
+	max-width: 20%;
+	margin: auto;
+}
 .title-perso{
 	cursor: pointer;
+	padding: 10px;
+	border-radius: 0px 0px 10px 0px;
+	display: flex;
+    align-items: center;
+}
+.title-perso:hover, .title-perso:focus{
+	background: rgb(77, 77, 77);
+}
+#liste-perso{
+	transition: all 1s;
 }
 #portfolio {
-	background: grey;
-    width: 240px;
-	height: auto;
+	background: rgb(61, 61, 61);
+    width: 350px;
+    height: auto;
+    text-align: center;
+	border-radius: 0px 0px 10px 0px;
+	color: white;
 }
 #portfolio .folio-item {
-	padding: 0;
+	padding: 15px;
 	position: relative;
 	overflow: hidden;
+	background: rgb(66, 66, 66);
+}
+#portfolio .folio-item:hover {
+	background-color: #4e4e4e;
+	border-radius: 0px 0px 10px 0px;
 }
 #portfolio .folio-item img {
 	vertical-align: middle;

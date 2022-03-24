@@ -41,15 +41,20 @@
    ================================================== -->
 	<section id="portfolio">
 		<ul>
-			<h3 class="title-perso" id="title-perso">
-				Liste des personnage
-			</h3>
+			<div class="title-perso" id="title-perso">
+				<h3 class="txt-list">
+					Liste des personnages
+				</h3>
+				<img class="perso-picture" src="images\imageJDR.png">
+				</img>
+			</div>
 			<div id="liste-perso" style="display: none;">
 				<div class="folio-item">
 					<div class="item-wrap">
 						<span>
 							Toshizo D Bibo
 						</span>
+						<img class="perso-img img1" src="images\Hijikata_Toshizou.png"></img>
 						<a href="#modal-01" class="overlay">
 						</a>
 					</div>
@@ -59,6 +64,7 @@
 						<span>
 							Ao
 						</span>
+						<img class="perso-img img2" src="images\Ao.PNG"></img>
 						<a href="#modal-02" class="overlay">
 						</a>
 					</div>
@@ -69,6 +75,7 @@
 						<span>
 							Zo Muneniku
 						</span>
+						<img class="perso-img img3" src="images\imageJDR.png"></img>
 						<a href="#modal-03" class="overlay">
 						</a>
 					</div>
@@ -80,6 +87,7 @@
 						<span>
 							Coulibalix Gabo
 						</span>
+						<img class="perso-img img4" src="images\IMG_6216.png"></img>
 						<a href="#modal-04" class="overlay">
 						</a>
 					</div>
@@ -90,6 +98,7 @@
 						<span>
 							Matrax Le Fou
 						</span>
+						<img class="perso-img img5" src="images\imageJDR.png"></img>
 						<a href="#modal-05" class="overlay">
 						</a>
 					</div>
@@ -111,66 +120,90 @@
 					</tr>
 					<tr>
 						<th class="tg-0lax">Deux mains</th>
-						<th class="tg-0lax"> 60</th>
+						<th class="tg-0lax">
+							<input type="text" id="P1-2main" name="2main">
+						</th>
 					</tr>
 					<tr>
 						<th class="tg-0lax">Pugiliste</th>
-						<th class="tg-0lax">0</th>
+						<th class="tg-0lax">
+							<input type="text" id="P1-pugi" name="pugi">
+						</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 						<td class="tg-0lax" rowspan="2">DEXTÉRITÉ</td>
 						<td class="tg-0lax">Arme à distance</td>
-						<td class="tg-0lax">0</td>
+						<td class="tg-0lax">
+							<input type="text" id="P1-armedist" name="armedist">
+						</td>
 					</tr>
 					<tr>
 						<td class="tg-0lax">Discrétion</td>
-						<td class="tg-0lax">10</td>
+						<td class="tg-0lax">
+							<input type="text" id="P1-discrt" name="discrt">
+						</td>
 					</tr>
 					<tr>
 						<td class="tg-0lax" rowspan="2">CHARISME</td>
 						<td class="tg-0lax">Intimidation</td>
-						<td class="tg-0lax">60</td>
+						<td class="tg-0lax">
+							<input type="text" id="P1-intimi" name="intimi">
+						</td>
 					</tr>
 					<tr>
 						<td class="tg-0lax">Mensonge</td>
-						<td class="tg-0lax">0</td>
+						<td class="tg-0lax">
+							<input type="text" id="P1-menso" name="menso">
+						</td>
 					</tr>
 					<tr>
 						<td class="tg-0lax">VOLONTÉ</td>
 						<td class="tg-0lax">Résistance aux altération d'état</td>
-						<td class="tg-0lax">50</td>
+						<td class="tg-0lax">
+							<input type="text" id="P1-resialt" name="resialt">
+						</td>
 					</tr>
 					<tr>
 						<td class="tg-0lax">AGILITÉ</td>
 						<td class="tg-0lax">Déplacement</td>
-						<td class="tg-0lax">50</td>
+						<td class="tg-0lax">
+							<input type="text" id="P1-depla" name="depla">
+						</td>
 					</tr>
 					<tr>
 						<td class="tg-0lax" rowspan="3">POUVOIRS</td>
 						<td class="tg-0lax">Fruit du démon</td>
-						<td class="tg-0lax">0</td>
+						<td class="tg-0lax">
+							<input type="text" id="P1-fruit" name="fruit">
+						</td>
 					</tr>
 					<tr>
 						<td class="tg-0lax">Haki de l'armement</td>
-						<td class="tg-0lax">30</td>
+						<td class="tg-0lax">
+							<input type="text" id="P1-hakiarm" name="hakiarm">
+						</td>
 					</tr>
 					<tr>
 						<td class="tg-0lax">Haki de l'observation</td>
-						<td class="tg-0lax">0</td>
+						<td class="tg-0lax">
+							<input type="text" id="P1-hakiobs" name="hakiobs">
+						</td>
 					</tr>
 					<tr>
 						<td class="tg-0lax">CONDITION</td>
 						<td class="tg-0lax">Point de vie</td>
-						<td class="tg-0lax"></td>
+						<td class="tg-0lax">
+							<input type="text" id="P1-pv" name="pv">
+						</td>
 					</tr>
 				</tbody>
 			</table>
 
 			<div class="link-box">
 				<a class="popup-modal-dismiss">Fermer</a>
-				<a class="popup-modal-dismiss" id="inputValide">Valider</a>
+				<a class="popup-modal-dismiss inputValide">Valider</a>
 			</div>
 
 		</div> <!-- /modal-01 -->
@@ -183,74 +216,401 @@
 						<th class="tg-0pky" rowspan="3"> FORCE</th>
 						<th class="tg-0lax">Une main</th>
 						<th class="tg-0lax">
-							<input type="text" id="1mainValue" name="1main">
+							<input type="text" id="P2-1main" name="1main">
 						</th>
 					</tr>
 					<tr>
 						<th class="tg-0lax">Deux mains</th>
-						<th class="tg-0lax"> 60</th>
+						<th class="tg-0lax">
+							<input type="text" id="P2-2main" name="2main">
+						</th>
 					</tr>
 					<tr>
 						<th class="tg-0lax">Pugiliste</th>
-						<th class="tg-0lax">0</th>
+						<th class="tg-0lax">
+							<input type="text" id="P2-pugi" name="pugi">
+						</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 						<td class="tg-0lax" rowspan="2">DEXTÉRITÉ</td>
 						<td class="tg-0lax">Arme à distance</td>
-						<td class="tg-0lax">0</td>
+						<td class="tg-0lax">
+							<input type="text" id="P2-armedist" name="armedist">
+						</td>
 					</tr>
 					<tr>
 						<td class="tg-0lax">Discrétion</td>
-						<td class="tg-0lax">10</td>
+						<td class="tg-0lax">
+							<input type="text" id="P2-discrt" name="discrt">
+						</td>
 					</tr>
 					<tr>
 						<td class="tg-0lax" rowspan="2">CHARISME</td>
 						<td class="tg-0lax">Intimidation</td>
-						<td class="tg-0lax">60</td>
+						<td class="tg-0lax">
+							<input type="text" id="P2-intimi" name="intimi">
+						</td>
 					</tr>
 					<tr>
 						<td class="tg-0lax">Mensonge</td>
-						<td class="tg-0lax">0</td>
+						<td class="tg-0lax">
+							<input type="text" id="P2-menso" name="menso">
+						</td>
 					</tr>
 					<tr>
 						<td class="tg-0lax">VOLONTÉ</td>
 						<td class="tg-0lax">Résistance aux altération d'état</td>
-						<td class="tg-0lax">50</td>
+						<td class="tg-0lax">
+							<input type="text" id="P2-resialt" name="resialt">
+						</td>
 					</tr>
 					<tr>
 						<td class="tg-0lax">AGILITÉ</td>
 						<td class="tg-0lax">Déplacement</td>
-						<td class="tg-0lax">50</td>
+						<td class="tg-0lax">
+							<input type="text" id="P2-depla" name="depla">
+						</td>
 					</tr>
 					<tr>
 						<td class="tg-0lax" rowspan="3">POUVOIRS</td>
 						<td class="tg-0lax">Fruit du démon</td>
-						<td class="tg-0lax">0</td>
+						<td class="tg-0lax">
+							<input type="text" id="P2-fruit" name="fruit">
+						</td>
 					</tr>
 					<tr>
 						<td class="tg-0lax">Haki de l'armement</td>
-						<td class="tg-0lax">30</td>
+						<td class="tg-0lax">
+							<input type="text" id="P2-hakiarm" name="hakiarm">
+						</td>
 					</tr>
 					<tr>
 						<td class="tg-0lax">Haki de l'observation</td>
-						<td class="tg-0lax">0</td>
+						<td class="tg-0lax">
+							<input type="text" id="P2-hakiobs" name="hakiobs">
+						</td>
 					</tr>
 					<tr>
 						<td class="tg-0lax">CONDITION</td>
 						<td class="tg-0lax">Point de vie</td>
-						<td class="tg-0lax"></td>
+						<td class="tg-0lax">
+							<input type="text" id="P2-pv" name="pv">
+						</td>
 					</tr>
 				</tbody>
 			</table>
 
 			<div class="link-box">
 				<a class="popup-modal-dismiss">Fermer</a>
-				<a class="popup-modal-dismiss" id="inputValide">Valider</a>
+				<a class="popup-modal-dismiss inputValide">Valider</a>
 			</div>
 
 		</div> <!-- /modal-02 -->
+
+		<div id="modal-03" class="popup-modal slider mfp-hide">
+
+			<table class="tg">
+				<thead>
+					<tr>
+						<th class="tg-0pky" rowspan="3"> FORCE</th>
+						<th class="tg-0lax">Une main</th>
+						<th class="tg-0lax">
+							<input type="text" id="P3-1main" name="1main">
+						</th>
+					</tr>
+					<tr>
+						<th class="tg-0lax">Deux mains</th>
+						<th class="tg-0lax">
+							<input type="text" id="P3-2main" name="2main">
+						</th>
+					</tr>
+					<tr>
+						<th class="tg-0lax">Pugiliste</th>
+						<th class="tg-0lax">
+							<input type="text" id="P3-pugi" name="pugi">
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="tg-0lax" rowspan="2">DEXTÉRITÉ</td>
+						<td class="tg-0lax">Arme à distance</td>
+						<td class="tg-0lax">
+							<input type="text" id="P3-armedist" name="armedist">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">Discrétion</td>
+						<td class="tg-0lax">
+							<input type="text" id="P3-discrt" name="discrt">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax" rowspan="2">CHARISME</td>
+						<td class="tg-0lax">Intimidation</td>
+						<td class="tg-0lax">
+							<input type="text" id="P3-intimi" name="intimi">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">Mensonge</td>
+						<td class="tg-0lax">
+							<input type="text" id="P3-menso" name="menso">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">VOLONTÉ</td>
+						<td class="tg-0lax">Résistance aux altération d'état</td>
+						<td class="tg-0lax">
+							<input type="text" id="P3-resialt" name="resialt">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">AGILITÉ</td>
+						<td class="tg-0lax">Déplacement</td>
+						<td class="tg-0lax">
+							<input type="text" id="P3-depla" name="depla">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax" rowspan="3">POUVOIRS</td>
+						<td class="tg-0lax">Fruit du démon</td>
+						<td class="tg-0lax">
+							<input type="text" id="P3-fruit" name="fruit">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">Haki de l'armement</td>
+						<td class="tg-0lax">
+							<input type="text" id="P3-hakiarm" name="hakiarm">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">Haki de l'observation</td>
+						<td class="tg-0lax">
+							<input type="text" id="P3-hakiobs" name="hakiobs">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">CONDITION</td>
+						<td class="tg-0lax">Point de vie</td>
+						<td class="tg-0lax">
+							<input type="text" id="P3-pv" name="pv">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<div class="link-box">
+				<a class="popup-modal-dismiss">Fermer</a>
+				<a class="popup-modal-dismiss inputValide">Valider</a>
+			</div>
+
+		</div> <!-- /modal-03 -->
+
+		<div id="modal-04" class="popup-modal slider mfp-hide">
+
+			<table class="tg">
+				<thead>
+					<tr>
+						<th class="tg-0pky" rowspan="3"> FORCE</th>
+						<th class="tg-0lax">Une main</th>
+						<th class="tg-0lax">
+							<input type="text" id="P4-1main" name="1main">
+						</th>
+					</tr>
+					<tr>
+						<th class="tg-0lax">Deux mains</th>
+						<th class="tg-0lax">
+							<input type="text" id="P4-2main" name="2main">
+						</th>
+					</tr>
+					<tr>
+						<th class="tg-0lax">Pugiliste</th>
+						<th class="tg-0lax">
+							<input type="text" id="P4-pugi" name="pugi">
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="tg-0lax" rowspan="2">DEXTÉRITÉ</td>
+						<td class="tg-0lax">Arme à distance</td>
+						<td class="tg-0lax">
+							<input type="text" id="P4-armedist" name="armedist">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">Discrétion</td>
+						<td class="tg-0lax">
+							<input type="text" id="P4-discrt" name="discrt">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax" rowspan="2">CHARISME</td>
+						<td class="tg-0lax">Intimidation</td>
+						<td class="tg-0lax">
+							<input type="text" id="P4-intimi" name="intimi">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">Mensonge</td>
+						<td class="tg-0lax">
+							<input type="text" id="P4-menso" name="menso">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">VOLONTÉ</td>
+						<td class="tg-0lax">Résistance aux altération d'état</td>
+						<td class="tg-0lax">
+							<input type="text" id="P4-resialt" name="resialt">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">AGILITÉ</td>
+						<td class="tg-0lax">Déplacement</td>
+						<td class="tg-0lax">
+							<input type="text" id="P4-depla" name="depla">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax" rowspan="3">POUVOIRS</td>
+						<td class="tg-0lax">Fruit du démon</td>
+						<td class="tg-0lax">
+							<input type="text" id="P4-fruit" name="fruit">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">Haki de l'armement</td>
+						<td class="tg-0lax">
+							<input type="text" id="P4-hakiarm" name="hakiarm">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">Haki de l'observation</td>
+						<td class="tg-0lax">
+							<input type="text" id="P4-hakiobs" name="hakiobs">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">CONDITION</td>
+						<td class="tg-0lax">Point de vie</td>
+						<td class="tg-0lax">
+							<input type="text" id="P4-pv" name="pv">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<div class="link-box">
+				<a class="popup-modal-dismiss">Fermer</a>
+				<a class="popup-modal-dismiss inputValide">Valider</a>
+			</div>
+
+		</div> <!-- /modal-04 -->
+
+		<div id="modal-05" class="popup-modal slider mfp-hide">
+
+			<table class="tg">
+				<thead>
+					<tr>
+						<th class="tg-0pky" rowspan="3"> FORCE</th>
+						<th class="tg-0lax">Une main</th>
+						<th class="tg-0lax">
+							<input type="text" id="P5-1main" name="1main">
+						</th>
+					</tr>
+					<tr>
+						<th class="tg-0lax">Deux mains</th>
+						<th class="tg-0lax">
+							<input type="text" id="P5-2main" name="2main">
+						</th>
+					</tr>
+					<tr>
+						<th class="tg-0lax">Pugiliste</th>
+						<th class="tg-0lax">
+							<input type="text" id="P5-pugi" name="pugi">
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="tg-0lax" rowspan="2">DEXTÉRITÉ</td>
+						<td class="tg-0lax">Arme à distance</td>
+						<td class="tg-0lax">
+							<input type="text" id="P5-armedist" name="armedist">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">Discrétion</td>
+						<td class="tg-0lax">
+							<input type="text" id="P5-discrt" name="discrt">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax" rowspan="2">CHARISME</td>
+						<td class="tg-0lax">Intimidation</td>
+						<td class="tg-0lax">
+							<input type="text" id="P5-intimi" name="intimi">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">Mensonge</td>
+						<td class="tg-0lax">
+							<input type="text" id="P5-menso" name="menso">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">VOLONTÉ</td>
+						<td class="tg-0lax">Résistance aux altération d'état</td>
+						<td class="tg-0lax">
+							<input type="text" id="P5-resialt" name="resialt">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">AGILITÉ</td>
+						<td class="tg-0lax">Déplacement</td>
+						<td class="tg-0lax">
+							<input type="text" id="P5-depla" name="depla">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax" rowspan="3">POUVOIRS</td>
+						<td class="tg-0lax">Fruit du démon</td>
+						<td class="tg-0lax">
+							<input type="text" id="P5-fruit" name="fruit">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">Haki de l'armement</td>
+						<td class="tg-0lax">
+							<input type="text" id="P5-hakiarm" name="hakiarm">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">Haki de l'observation</td>
+						<td class="tg-0lax">
+							<input type="text" id="P5-hakiobs" name="hakiobs">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">CONDITION</td>
+						<td class="tg-0lax">Point de vie</td>
+						<td class="tg-0lax">
+							<input type="text" id="P5-pv" name="pv">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<div class="link-box">
+				<a class="popup-modal-dismiss">Fermer</a>
+				<a class="popup-modal-dismiss inputValide">Valider</a>
+			</div>
+
+		</div> <!-- /modal-05 -->
 
 		<!-- modal popups - end
 	============================================================= -->
