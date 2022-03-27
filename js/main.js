@@ -20,7 +20,7 @@ function displayOnOff() {
 
 if (!localStorage.getItem('P1-1main') && !localStorage.getItem('P1-2main') && !localStorage.getItem('P1-pugi')
 	&& !localStorage.getItem('P1-armedist') && !localStorage.getItem('P1-discrt') && !localStorage.getItem('P1-intimi')
-	&& !localStorage.getItem('P1-menso') && !localStorage.getItem('P1-resialt') && !localStorage.getItem('P1-depla')
+	&& !localStorage.getItem('P1-menso') && !localStorage.getItem('P1-connai') && !localStorage.getItem('P1-resialt') && !localStorage.getItem('P1-depla')
 	&& !localStorage.getItem('P1-fruit') && !localStorage.getItem('P1-hakiarm') && !localStorage.getItem('P1-hakiobs')
 	&& !localStorage.getItem('P1-pv')) {
 	populateStorage();
@@ -30,7 +30,7 @@ if (!localStorage.getItem('P1-1main') && !localStorage.getItem('P1-2main') && !l
 
 if (!localStorage.getItem('P2-1main') && !localStorage.getItem('P2-2main') && !localStorage.getItem('P2-pugi')
 	&& !localStorage.getItem('P2-armedist') && !localStorage.getItem('P2-discrt') && !localStorage.getItem('P2-intimi')
-	&& !localStorage.getItem('P2-menso') && !localStorage.getItem('P2-resialt') && !localStorage.getItem('P2-depla')
+	&& !localStorage.getItem('P2-menso') && !localStorage.getItem('P2-connai') && !localStorage.getItem('P2-resialt') && !localStorage.getItem('P2-depla')
 	&& !localStorage.getItem('P2-fruit') && !localStorage.getItem('P2-hakiarm') && !localStorage.getItem('P2-hakiobs')
 	&& !localStorage.getItem('P2-pv')) {
 	populateStorage();
@@ -40,7 +40,7 @@ if (!localStorage.getItem('P2-1main') && !localStorage.getItem('P2-2main') && !l
 
 if (!localStorage.getItem('P3-1main') && !localStorage.getItem('P3-2main') && !localStorage.getItem('P3-pugi')
 	&& !localStorage.getItem('P3-armedist') && !localStorage.getItem('P3-discrt') && !localStorage.getItem('P3-intimi')
-	&& !localStorage.getItem('P3-menso') && !localStorage.getItem('P3-resialt') && !localStorage.getItem('P3-depla')
+	&& !localStorage.getItem('P3-menso') && !localStorage.getItem('P3-connai') && !localStorage.getItem('P3-resialt') && !localStorage.getItem('P3-depla')
 	&& !localStorage.getItem('P3-fruit') && !localStorage.getItem('P3-hakiarm') && !localStorage.getItem('P3-hakiobs')
 	&& !localStorage.getItem('P3-pv')) {
 	populateStorage();
@@ -50,7 +50,7 @@ if (!localStorage.getItem('P3-1main') && !localStorage.getItem('P3-2main') && !l
 
 if (!localStorage.getItem('P4-1main') && !localStorage.getItem('P4-2main') && !localStorage.getItem('P4-pugi')
 	&& !localStorage.getItem('P4-armedist') && !localStorage.getItem('P4-discrt') && !localStorage.getItem('P4-intimi')
-	&& !localStorage.getItem('P4-menso') && !localStorage.getItem('P4-resialt') && !localStorage.getItem('P4-depla')
+	&& !localStorage.getItem('P4-menso') && !localStorage.getItem('P4-connai') && !localStorage.getItem('P4-resialt') && !localStorage.getItem('P4-depla')
 	&& !localStorage.getItem('P4-fruit') && !localStorage.getItem('P4-hakiarm') && !localStorage.getItem('P4-hakiobs')
 	&& !localStorage.getItem('P4-pv')) {
 	populateStorage();
@@ -60,7 +60,7 @@ if (!localStorage.getItem('P4-1main') && !localStorage.getItem('P4-2main') && !l
 
 if (!localStorage.getItem('P5-1main') && !localStorage.getItem('P5-2main') && !localStorage.getItem('P5-pugi')
 	&& !localStorage.getItem('P5-armedist') && !localStorage.getItem('P5-discrt') && !localStorage.getItem('P5-intimi')
-	&& !localStorage.getItem('P5-menso') && !localStorage.getItem('P5-resialt') && !localStorage.getItem('P5-depla')
+	&& !localStorage.getItem('P5-menso') && !localStorage.getItem('P5-connai') && !localStorage.getItem('P5-resialt') && !localStorage.getItem('P5-depla')
 	&& !localStorage.getItem('P5-fruit') && !localStorage.getItem('P5-hakiarm') && !localStorage.getItem('P5-hakiobs')
 	&& !localStorage.getItem('P5-pv')) {
 	populateStorage();
@@ -88,6 +88,8 @@ function setStyles() {
 	document.getElementById('P1-intimi').value = P1intimi;
 	var P1menso = localStorage.getItem('P1-menso');
 	document.getElementById('P1-menso').value = P1menso;
+	var P1connai = localStorage.getItem('P1-connai');
+	document.getElementById('P1-connai').value = P1connai;
 	var P1resialt = localStorage.getItem('P1-resialt');
 	document.getElementById('P1-resialt').value = P1resialt;
 	var P1depla = localStorage.getItem('P1-depla');
@@ -119,6 +121,8 @@ function setStyles() {
 	document.getElementById('P2-intimi').value = P2intimi;
 	var P2menso = localStorage.getItem('P2-menso');
 	document.getElementById('P2-menso').value = P2menso;
+	var P2connai = localStorage.getItem('P2-connai');
+	document.getElementById('P2-connai').value = P2connai;
 	var P2resialt = localStorage.getItem('P2-resialt');
 	document.getElementById('P2-resialt').value = P2resialt;
 	var P2depla = localStorage.getItem('P2-depla');
@@ -150,6 +154,8 @@ function setStyles() {
 	document.getElementById('P3-intimi').value = P3intimi;
 	var P3menso = localStorage.getItem('P3-menso');
 	document.getElementById('P3-menso').value = P3menso;
+	var P3connai = localStorage.getItem('P3-connai');
+	document.getElementById('P3-connai').value = P3connai;
 	var P3resialt = localStorage.getItem('P3-resialt');
 	document.getElementById('P3-resialt').value = P3resialt;
 	var P3depla = localStorage.getItem('P3-depla');
@@ -181,6 +187,8 @@ function setStyles() {
 	document.getElementById('P4-intimi').value = P4intimi;
 	var P4menso = localStorage.getItem('P4-menso');
 	document.getElementById('P4-menso').value = P4menso;
+	var P4connai = localStorage.getItem('P4-connai');
+	document.getElementById('P4-connai').value = P4connai;
 	var P4resialt = localStorage.getItem('P4-resialt');
 	document.getElementById('P4-resialt').value = P4resialt;
 	var P4depla = localStorage.getItem('P4-depla');
@@ -212,6 +220,8 @@ function setStyles() {
 	document.getElementById('P5-intimi').value = P5intimi;
 	var P5menso = localStorage.getItem('P5-menso');
 	document.getElementById('P5-menso').value = P5menso;
+	var P5connai = localStorage.getItem('P5-connai');
+	document.getElementById('P5-connai').value = P5connai;
 	var P5resialt = localStorage.getItem('P5-resialt');
 	document.getElementById('P5-resialt').value = P5resialt;
 	var P5depla = localStorage.getItem('P5-depla');
@@ -234,6 +244,7 @@ function populateStorage() {
 	localStorage.setItem('P1-discrt', document.getElementById('P1-discrt').value);
 	localStorage.setItem('P1-intimi', document.getElementById('P1-intimi').value);
 	localStorage.setItem('P1-menso', document.getElementById('P1-menso').value);
+	localStorage.setItem('P1-connai', document.getElementById('P1-connai').value);
 	localStorage.setItem('P1-resialt', document.getElementById('P1-resialt').value);
 	localStorage.setItem('P1-depla', document.getElementById('P1-depla').value);
 	localStorage.setItem('P1-fruit', document.getElementById('P1-fruit').value);
@@ -250,6 +261,7 @@ function populateStorage() {
 	localStorage.setItem('P2-armedist', document.getElementById('P2-armedist').value);
 	localStorage.setItem('P2-discrt', document.getElementById('P2-discrt').value);
 	localStorage.setItem('P2-intimi', document.getElementById('P2-intimi').value);
+	localStorage.setItem('P2-connai', document.getElementById('P2-connai').value);
 	localStorage.setItem('P2-menso', document.getElementById('P2-menso').value);
 	localStorage.setItem('P2-resialt', document.getElementById('P2-resialt').value);
 	localStorage.setItem('P2-depla', document.getElementById('P2-depla').value);
@@ -268,6 +280,7 @@ function populateStorage() {
 	localStorage.setItem('P3-armedist', document.getElementById('P3-armedist').value);
 	localStorage.setItem('P3-discrt', document.getElementById('P3-discrt').value);
 	localStorage.setItem('P3-intimi', document.getElementById('P3-intimi').value);
+	localStorage.setItem('P3-connai', document.getElementById('P3-connai').value);
 	localStorage.setItem('P3-menso', document.getElementById('P3-menso').value);
 	localStorage.setItem('P3-resialt', document.getElementById('P3-resialt').value);
 	localStorage.setItem('P3-depla', document.getElementById('P3-depla').value);
@@ -286,6 +299,7 @@ function populateStorage() {
 	localStorage.setItem('P4-armedist', document.getElementById('P4-armedist').value);
 	localStorage.setItem('P4-discrt', document.getElementById('P4-discrt').value);
 	localStorage.setItem('P4-intimi', document.getElementById('P4-intimi').value);
+	localStorage.setItem('P4-connai', document.getElementById('P4-connai').value);
 	localStorage.setItem('P4-menso', document.getElementById('P4-menso').value);
 	localStorage.setItem('P4-resialt', document.getElementById('P4-resialt').value);
 	localStorage.setItem('P4-depla', document.getElementById('P4-depla').value);
@@ -304,6 +318,7 @@ function populateStorage() {
 	localStorage.setItem('P5-armedist', document.getElementById('P5-armedist').value);
 	localStorage.setItem('P5-discrt', document.getElementById('P5-discrt').value);
 	localStorage.setItem('P5-intimi', document.getElementById('P5-intimi').value);
+	localStorage.setItem('P5-connai', document.getElementById('P5-connai').value);
 	localStorage.setItem('P5-menso', document.getElementById('P5-menso').value);
 	localStorage.setItem('P5-resialt', document.getElementById('P5-resialt').value);
 	localStorage.setItem('P5-depla', document.getElementById('P5-depla').value);

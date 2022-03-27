@@ -39,15 +39,15 @@
 
 	<!-- Portfolio Section
    ================================================== -->
-	<section id="portfolio">
+	<div id="portfolio">
+		<div class="title-perso" id="title-perso">
+			<h3 class="txt-list">
+				Liste des personnages
+			</h3>
+			<img class="perso-picture" src="images\imageJDR.png">
+			</img>
+		</div>
 		<ul>
-			<div class="title-perso" id="title-perso">
-				<h3 class="txt-list">
-					Liste des personnages
-				</h3>
-				<img class="perso-picture" src="images\imageJDR.png">
-				</img>
-			</div>
 			<div id="liste-perso" style="display: none;">
 				<div class="folio-item">
 					<div class="item-wrap">
@@ -75,7 +75,7 @@
 						<span>
 							Zo Muneniku
 						</span>
-						<img class="perso-img img3" src="images\imageJDR.png"></img>
+						<img class="perso-img img3" src="images\IMG_3615.png"></img>
 						<a href="#modal-03" class="overlay">
 						</a>
 					</div>
@@ -146,7 +146,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="tg-0lax" rowspan="2">CHARISME</td>
+						<td class="tg-0lax" rowspan="3">CHARISME</td>
 						<td class="tg-0lax">Intimidation</td>
 						<td class="tg-0lax">
 							<input type="text" id="P1-intimi" name="intimi">
@@ -156,6 +156,12 @@
 						<td class="tg-0lax">Mensonge</td>
 						<td class="tg-0lax">
 							<input type="text" id="P1-menso" name="menso">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">Connaissance</td>
+						<td class="tg-0lax">
+							<input type="text" id="P1-connai" name="connai">
 						</td>
 					</tr>
 					<tr>
@@ -247,7 +253,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="tg-0lax" rowspan="2">CHARISME</td>
+						<td class="tg-0lax" rowspan="3">CHARISME</td>
 						<td class="tg-0lax">Intimidation</td>
 						<td class="tg-0lax">
 							<input type="text" id="P2-intimi" name="intimi">
@@ -257,6 +263,12 @@
 						<td class="tg-0lax">Mensonge</td>
 						<td class="tg-0lax">
 							<input type="text" id="P2-menso" name="menso">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">Connaissance</td>
+						<td class="tg-0lax">
+							<input type="text" id="P2-connai" name="connai">
 						</td>
 					</tr>
 					<tr>
@@ -348,7 +360,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="tg-0lax" rowspan="2">CHARISME</td>
+						<td class="tg-0lax" rowspan="3">CHARISME</td>
 						<td class="tg-0lax">Intimidation</td>
 						<td class="tg-0lax">
 							<input type="text" id="P3-intimi" name="intimi">
@@ -358,6 +370,12 @@
 						<td class="tg-0lax">Mensonge</td>
 						<td class="tg-0lax">
 							<input type="text" id="P3-menso" name="menso">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">Connaissance</td>
+						<td class="tg-0lax">
+							<input type="text" id="P3-connai" name="connai">
 						</td>
 					</tr>
 					<tr>
@@ -449,7 +467,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="tg-0lax" rowspan="2">CHARISME</td>
+						<td class="tg-0lax" rowspan="3">CHARISME</td>
 						<td class="tg-0lax">Intimidation</td>
 						<td class="tg-0lax">
 							<input type="text" id="P4-intimi" name="intimi">
@@ -459,6 +477,12 @@
 						<td class="tg-0lax">Mensonge</td>
 						<td class="tg-0lax">
 							<input type="text" id="P4-menso" name="menso">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">Connaissance</td>
+						<td class="tg-0lax">
+							<input type="text" id="P4-connai" name="connai">
 						</td>
 					</tr>
 					<tr>
@@ -550,7 +574,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="tg-0lax" rowspan="2">CHARISME</td>
+						<td class="tg-0lax" rowspan="3">CHARISME</td>
 						<td class="tg-0lax">Intimidation</td>
 						<td class="tg-0lax">
 							<input type="text" id="P5-intimi" name="intimi">
@@ -560,6 +584,12 @@
 						<td class="tg-0lax">Mensonge</td>
 						<td class="tg-0lax">
 							<input type="text" id="P5-menso" name="menso">
+						</td>
+					</tr>
+					<tr>
+						<td class="tg-0lax">Connaissance</td>
+						<td class="tg-0lax">
+							<input type="text" id="P5-connai" name="connai">
 						</td>
 					</tr>
 					<tr>
@@ -614,7 +644,30 @@
 
 		<!-- modal popups - end
 	============================================================= -->
-	</section> <!-- /portfolio -->
+	</div> <!-- /portfolio -->
+
+	<!-- Bouton Section
+   ================================================== -->
+	<div class="boutons">
+		<!--<input type="button" class="btnSucces" value="Succès" />-->
+		<a class="btn-epic">
+			<div class="btnSucces">
+				<span class="succes">succes</span>
+				<span>succes</span>
+			</div>
+		</a>
+
+		<a class="btn-epic">
+			<div class="btnEchec">
+				<span class="echec">echec</span>
+				<span>echec</span>
+			</div>
+		</a>
+
+		<!--<input type="button" class="btnEchec" value="Échec" />-->
+
+
+	</div>
 
 	<!-- Java Script
    ================================================== -->
