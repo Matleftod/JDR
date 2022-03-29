@@ -5,6 +5,8 @@
  * ------------------------------------------------------------------- 
  */
 
+document.addEventListener('DOMContentLoaded', appelleFunction);
+
 const titlePerso = document.getElementById("title-perso");
 const listePerso = document.getElementById("liste-perso");
 
@@ -22,7 +24,7 @@ if (!localStorage.getItem('P1-1main') && !localStorage.getItem('P1-2main') && !l
 	&& !localStorage.getItem('P1-armedist') && !localStorage.getItem('P1-discrt') && !localStorage.getItem('P1-intimi')
 	&& !localStorage.getItem('P1-menso') && !localStorage.getItem('P1-connai') && !localStorage.getItem('P1-resialt') && !localStorage.getItem('P1-depla')
 	&& !localStorage.getItem('P1-perce') && !localStorage.getItem('P1-fruit') && !localStorage.getItem('P1-hakiarm') && !localStorage.getItem('P1-hakiobs')
-	&& !localStorage.getItem('P1-pv')) {
+	&& !localStorage.getItem('P1-pv') && !localStorage.getItem('P1-life')) {
 	populateStorage();
 } else {
 	setStyles();
@@ -32,7 +34,7 @@ if (!localStorage.getItem('P2-1main') && !localStorage.getItem('P2-2main') && !l
 	&& !localStorage.getItem('P2-armedist') && !localStorage.getItem('P2-discrt') && !localStorage.getItem('P2-intimi')
 	&& !localStorage.getItem('P2-menso') && !localStorage.getItem('P2-connai') && !localStorage.getItem('P2-resialt') && !localStorage.getItem('P2-depla')
 	&& !localStorage.getItem('P2-perce') && !localStorage.getItem('P2-fruit') && !localStorage.getItem('P2-hakiarm') && !localStorage.getItem('P2-hakiobs')
-	&& !localStorage.getItem('P2-pv')) {
+	&& !localStorage.getItem('P2-pv') && !localStorage.getItem('P2-life')) {
 	populateStorage();
 } else {
 	setStyles();
@@ -42,7 +44,7 @@ if (!localStorage.getItem('P3-1main') && !localStorage.getItem('P3-2main') && !l
 	&& !localStorage.getItem('P3-armedist') && !localStorage.getItem('P3-discrt') && !localStorage.getItem('P3-intimi')
 	&& !localStorage.getItem('P3-menso') && !localStorage.getItem('P3-connai') && !localStorage.getItem('P3-resialt') && !localStorage.getItem('P3-depla')
 	&& !localStorage.getItem('P3-perce') && !localStorage.getItem('P3-fruit') && !localStorage.getItem('P3-hakiarm') && !localStorage.getItem('P3-hakiobs')
-	&& !localStorage.getItem('P3-pv')) {
+	&& !localStorage.getItem('P3-pv') && !localStorage.getItem('P3-life')) {
 	populateStorage();
 } else {
 	setStyles();
@@ -52,7 +54,7 @@ if (!localStorage.getItem('P4-1main') && !localStorage.getItem('P4-2main') && !l
 	&& !localStorage.getItem('P4-armedist') && !localStorage.getItem('P4-discrt') && !localStorage.getItem('P4-intimi')
 	&& !localStorage.getItem('P4-menso') && !localStorage.getItem('P4-connai') && !localStorage.getItem('P4-resialt') && !localStorage.getItem('P4-depla')
 	&& !localStorage.getItem('P4-perce') && !localStorage.getItem('P4-fruit') && !localStorage.getItem('P4-hakiarm') && !localStorage.getItem('P4-hakiobs')
-	&& !localStorage.getItem('P4-pv')) {
+	&& !localStorage.getItem('P4-pv') && !localStorage.getItem('P4-life')) {
 	populateStorage();
 } else {
 	setStyles();
@@ -62,15 +64,21 @@ if (!localStorage.getItem('P5-1main') && !localStorage.getItem('P5-2main') && !l
 	&& !localStorage.getItem('P5-armedist') && !localStorage.getItem('P5-discrt') && !localStorage.getItem('P5-intimi')
 	&& !localStorage.getItem('P5-menso') && !localStorage.getItem('P5-connai') && !localStorage.getItem('P5-resialt') && !localStorage.getItem('P5-depla')
 	&& !localStorage.getItem('P5-perce') && !localStorage.getItem('P5-fruit') && !localStorage.getItem('P5-hakiarm') && !localStorage.getItem('P5-hakiobs')
-	&& !localStorage.getItem('P5-pv')) {
+	&& !localStorage.getItem('P5-pv') && !localStorage.getItem('P5-life')) {
 	populateStorage();
 } else {
 	setStyles();
 }
 const btnValide = document.querySelectorAll(".inputValide");
 btnValide.forEach(element => {
-	element.addEventListener("click", populateStorage);
+	element.addEventListener("click", appelleFunction);
 });
+
+function appelleFunction() {
+	populateStorage();
+	updateMaxLife();
+	updateBarreLife();
+}
 
 
 function setStyles() {
@@ -104,6 +112,8 @@ function setStyles() {
 	document.getElementById('P1-hakiobs').value = P1hakiobs;
 	var P1pv = localStorage.getItem('P1-pv');
 	document.getElementById('P1-pv').value = P1pv;
+	var P1life = localStorage.getItem('P1-life');
+	document.getElementById('P1-life').value = P1life;
 
 	/************************************************************
 	* Perso 2************************************************
@@ -139,6 +149,8 @@ function setStyles() {
 	document.getElementById('P2-hakiobs').value = P2hakiobs;
 	var P2pv = localStorage.getItem('P2-pv');
 	document.getElementById('P2-pv').value = P2pv;
+	var P2life = localStorage.getItem('P2-life');
+	document.getElementById('P2-life').value = P2life;
 
 	/************************************************************
 	* Perso 3************************************************
@@ -174,6 +186,8 @@ function setStyles() {
 	document.getElementById('P3-hakiobs').value = P3hakiobs;
 	var P3pv = localStorage.getItem('P3-pv');
 	document.getElementById('P3-pv').value = P3pv;
+	var P3life = localStorage.getItem('P3-life');
+	document.getElementById('P3-life').value = P3life;
 
 	/************************************************************
 	* Perso 4************************************************
@@ -209,6 +223,8 @@ function setStyles() {
 	document.getElementById('P4-hakiobs').value = P4hakiobs;
 	var P4pv = localStorage.getItem('P4-pv');
 	document.getElementById('P4-pv').value = P4pv;
+	var P4life = localStorage.getItem('P4-life');
+	document.getElementById('P4-life').value = P4life;
 
 	/************************************************************
 	* Perso 5************************************************
@@ -244,6 +260,8 @@ function setStyles() {
 	document.getElementById('P5-hakiobs').value = P5hakiobs;
 	var P5pv = localStorage.getItem('P5-pv');
 	document.getElementById('P5-pv').value = P5pv;
+	var P5life = localStorage.getItem('P5-life');
+	document.getElementById('P5-life').value = P5life;
 }
 
 function populateStorage() {
@@ -262,6 +280,7 @@ function populateStorage() {
 	localStorage.setItem('P1-hakiarm', document.getElementById('P1-hakiarm').value);
 	localStorage.setItem('P1-hakiobs', document.getElementById('P1-hakiobs').value);
 	localStorage.setItem('P1-pv', document.getElementById('P1-pv').value);
+	localStorage.setItem('P1-life', document.getElementById('P1-life').value);
 	/************************************************************
 	* Perso 2************************************************
 	*********************************************************/
@@ -281,6 +300,7 @@ function populateStorage() {
 	localStorage.setItem('P2-hakiarm', document.getElementById('P2-hakiarm').value);
 	localStorage.setItem('P2-hakiobs', document.getElementById('P2-hakiobs').value);
 	localStorage.setItem('P2-pv', document.getElementById('P2-pv').value);
+	localStorage.setItem('P2-life', document.getElementById('P2-life').value);
 
 	/************************************************************
 	* Perso 3************************************************
@@ -301,6 +321,7 @@ function populateStorage() {
 	localStorage.setItem('P3-hakiarm', document.getElementById('P3-hakiarm').value);
 	localStorage.setItem('P3-hakiobs', document.getElementById('P3-hakiobs').value);
 	localStorage.setItem('P3-pv', document.getElementById('P3-pv').value);
+	localStorage.setItem('P3-life', document.getElementById('P3-life').value);
 
 	/************************************************************
 	* Perso 4************************************************
@@ -321,6 +342,7 @@ function populateStorage() {
 	localStorage.setItem('P4-hakiarm', document.getElementById('P4-hakiarm').value);
 	localStorage.setItem('P4-hakiobs', document.getElementById('P4-hakiobs').value);
 	localStorage.setItem('P4-pv', document.getElementById('P4-pv').value);
+	localStorage.setItem('P4-life', document.getElementById('P4-life').value);
 
 	/************************************************************
 	* Perso 5************************************************
@@ -341,6 +363,7 @@ function populateStorage() {
 	localStorage.setItem('P5-hakiarm', document.getElementById('P5-hakiarm').value);
 	localStorage.setItem('P5-hakiobs', document.getElementById('P5-hakiobs').value);
 	localStorage.setItem('P5-pv', document.getElementById('P5-pv').value);
+	localStorage.setItem('P5-life', document.getElementById('P5-life').value);
 
 	setStyles();
 }
@@ -371,6 +394,38 @@ function displayEchec() {
 		txtEchec[0].classList.add("displayNone");
 		txtEchec[0].classList.remove("fadeOut");
 	}, 9500);
+}
+
+const P1maxLife = document.getElementById("P1-maxlife");
+const P2maxLife = document.getElementById("P2-maxlife");
+const P3maxLife = document.getElementById("P3-maxlife");
+const P4maxLife = document.getElementById("P4-maxlife");
+const P5maxLife = document.getElementById("P5-maxlife");
+function updateMaxLife() {
+	P1maxLife.innerHTML = localStorage.getItem('P1-pv');
+	P2maxLife.innerHTML = localStorage.getItem('P2-pv');
+	P3maxLife.innerHTML = localStorage.getItem('P3-pv');
+	P4maxLife.innerHTML = localStorage.getItem('P4-pv');
+	P5maxLife.innerHTML = localStorage.getItem('P5-pv');
+}
+
+function updateBarreLife() {
+	const P1barre = document.getElementById("P1-barre");
+	let P1lifepurcent = (localStorage.getItem('P1-life') / localStorage.getItem('P1-pv')) * 100 + "%";
+	const P2barre = document.getElementById("P2-barre");
+	let P2lifepurcent = (localStorage.getItem('P2-life') / localStorage.getItem('P2-pv')) * 100 + "%";
+	const P3barre = document.getElementById("P3-barre");
+	let P3lifepurcent = (localStorage.getItem('P3-life') / localStorage.getItem('P3-pv')) * 100 + "%";
+	const P4barre = document.getElementById("P4-barre");
+	let P4lifepurcent = (localStorage.getItem('P4-life') / localStorage.getItem('P4-pv')) * 100 + "%";
+	const P5barre = document.getElementById("P5-barre");
+	let P5lifepurcent = (localStorage.getItem('P5-life') / localStorage.getItem('P5-pv')) * 100 + "%";
+
+	P1barre.style.width = P1lifepurcent;
+	P2barre.style.width = P2lifepurcent;
+	P3barre.style.width = P3lifepurcent;
+	P4barre.style.width = P4lifepurcent;
+	P5barre.style.width = P5lifepurcent;
 }
 
 (function ($) {
