@@ -22,8 +22,9 @@ function displayOnOff() {
 
 if (!localStorage.getItem('P1-1main') && !localStorage.getItem('P1-2main') && !localStorage.getItem('P1-pugi')
 	&& !localStorage.getItem('P1-armedist') && !localStorage.getItem('P1-discrt') && !localStorage.getItem('P1-intimi')
-	&& !localStorage.getItem('P1-menso') && !localStorage.getItem('P1-connai') && !localStorage.getItem('P1-resialt') && !localStorage.getItem('P1-depla')
-	&& !localStorage.getItem('P1-perce') && !localStorage.getItem('P1-fruit') && !localStorage.getItem('P1-hakiarm') && !localStorage.getItem('P1-hakiobs')
+	&& !localStorage.getItem('P1-menso') && !localStorage.getItem('P1-connai') && !localStorage.getItem('P1-styspe') && !localStorage.getItem('P1-intel')
+	&& !localStorage.getItem('P1-perce') && !localStorage.getItem('P1-nego') && !localStorage.getItem('P1-char') && !localStorage.getItem('P1-volon') 
+	&& !localStorage.getItem('P1-rois') && !localStorage.getItem('P1-hakiarm') && !localStorage.getItem('P1-hakiobs')
 	&& !localStorage.getItem('P1-pv') && !localStorage.getItem('P1-life')) {
 	populateStorage();
 } else {
@@ -32,8 +33,9 @@ if (!localStorage.getItem('P1-1main') && !localStorage.getItem('P1-2main') && !l
 
 if (!localStorage.getItem('P2-1main') && !localStorage.getItem('P2-2main') && !localStorage.getItem('P2-pugi')
 	&& !localStorage.getItem('P2-armedist') && !localStorage.getItem('P2-discrt') && !localStorage.getItem('P2-intimi')
-	&& !localStorage.getItem('P2-menso') && !localStorage.getItem('P2-connai') && !localStorage.getItem('P2-resialt') && !localStorage.getItem('P2-depla')
-	&& !localStorage.getItem('P2-perce') && !localStorage.getItem('P2-fruit') && !localStorage.getItem('P2-hakiarm') && !localStorage.getItem('P2-hakiobs')
+	&& !localStorage.getItem('P2-menso') && !localStorage.getItem('P2-connai') && !localStorage.getItem('P2-styspe') && !localStorage.getItem('P2-intel')
+	&& !localStorage.getItem('P2-perce') && !localStorage.getItem('P2-nego') && !localStorage.getItem('P2-char') && !localStorage.getItem('P2-volon') 
+	&& !localStorage.getItem('P2-rois') && !localStorage.getItem('P2-hakiarm') && !localStorage.getItem('P2-hakiobs')
 	&& !localStorage.getItem('P2-pv') && !localStorage.getItem('P2-life')) {
 	populateStorage();
 } else {
@@ -42,8 +44,9 @@ if (!localStorage.getItem('P2-1main') && !localStorage.getItem('P2-2main') && !l
 
 if (!localStorage.getItem('P3-1main') && !localStorage.getItem('P3-2main') && !localStorage.getItem('P3-pugi')
 	&& !localStorage.getItem('P3-armedist') && !localStorage.getItem('P3-discrt') && !localStorage.getItem('P3-intimi')
-	&& !localStorage.getItem('P3-menso') && !localStorage.getItem('P3-connai') && !localStorage.getItem('P3-resialt') && !localStorage.getItem('P3-depla')
-	&& !localStorage.getItem('P3-perce') && !localStorage.getItem('P3-fruit') && !localStorage.getItem('P3-hakiarm') && !localStorage.getItem('P3-hakiobs')
+	&& !localStorage.getItem('P3-menso') && !localStorage.getItem('P3-connai') && !localStorage.getItem('P3-styspe') && !localStorage.getItem('P3-intel')
+	&& !localStorage.getItem('P3-perce') && !localStorage.getItem('P3-nego') && !localStorage.getItem('P3-char') && !localStorage.getItem('P3-volon') 
+	&& !localStorage.getItem('P3-rois') && !localStorage.getItem('P3-hakiarm') && !localStorage.getItem('P3-hakiobs')
 	&& !localStorage.getItem('P3-pv') && !localStorage.getItem('P3-life')) {
 	populateStorage();
 } else {
@@ -52,8 +55,9 @@ if (!localStorage.getItem('P3-1main') && !localStorage.getItem('P3-2main') && !l
 
 if (!localStorage.getItem('P4-1main') && !localStorage.getItem('P4-2main') && !localStorage.getItem('P4-pugi')
 	&& !localStorage.getItem('P4-armedist') && !localStorage.getItem('P4-discrt') && !localStorage.getItem('P4-intimi')
-	&& !localStorage.getItem('P4-menso') && !localStorage.getItem('P4-connai') && !localStorage.getItem('P4-resialt') && !localStorage.getItem('P4-depla')
-	&& !localStorage.getItem('P4-perce') && !localStorage.getItem('P4-fruit') && !localStorage.getItem('P4-hakiarm') && !localStorage.getItem('P4-hakiobs')
+	&& !localStorage.getItem('P4-menso') && !localStorage.getItem('P4-connai') && !localStorage.getItem('P4-styspe') && !localStorage.getItem('P4-intel')
+	&& !localStorage.getItem('P4-perce') && !localStorage.getItem('P4-nego') && !localStorage.getItem('P4-char') && !localStorage.getItem('P4-volon') 
+	&& !localStorage.getItem('P4-rois') && !localStorage.getItem('P4-hakiarm') && !localStorage.getItem('P4-hakiobs')
 	&& !localStorage.getItem('P4-pv') && !localStorage.getItem('P4-life')) {
 	populateStorage();
 } else {
@@ -62,8 +66,9 @@ if (!localStorage.getItem('P4-1main') && !localStorage.getItem('P4-2main') && !l
 
 if (!localStorage.getItem('P5-1main') && !localStorage.getItem('P5-2main') && !localStorage.getItem('P5-pugi')
 	&& !localStorage.getItem('P5-armedist') && !localStorage.getItem('P5-discrt') && !localStorage.getItem('P5-intimi')
-	&& !localStorage.getItem('P5-menso') && !localStorage.getItem('P5-connai') && !localStorage.getItem('P5-resialt') && !localStorage.getItem('P5-depla')
-	&& !localStorage.getItem('P5-perce') && !localStorage.getItem('P5-fruit') && !localStorage.getItem('P5-hakiarm') && !localStorage.getItem('P5-hakiobs')
+	&& !localStorage.getItem('P5-menso') && !localStorage.getItem('P5-connai') && !localStorage.getItem('P5-styspe') && !localStorage.getItem('P5-intel')
+	&& !localStorage.getItem('P5-perce') && !localStorage.getItem('P5-nego') && !localStorage.getItem('P5-char') && !localStorage.getItem('P5-volon') 
+	&& !localStorage.getItem('P5-rois') && !localStorage.getItem('P5-hakiarm') && !localStorage.getItem('P5-hakiobs')
 	&& !localStorage.getItem('P5-pv') && !localStorage.getItem('P5-life')) {
 	populateStorage();
 } else {
@@ -98,14 +103,20 @@ function setStyles() {
 	document.getElementById('P1-menso').value = P1menso;
 	var P1connai = localStorage.getItem('P1-connai');
 	document.getElementById('P1-connai').value = P1connai;
-	var P1resialt = localStorage.getItem('P1-resialt');
-	document.getElementById('P1-resialt').value = P1resialt;
+	var P1styspe = localStorage.getItem('P1-styspe');
+	document.getElementById('P1-styspe').value = P1styspe;
+	var P1intel = localStorage.getItem('P1-intel');
+	document.getElementById('P1-intel').value = P1intel;
 	var P1perce = localStorage.getItem('P1-perce');
 	document.getElementById('P1-perce').value = P1perce;
-	var P1depla = localStorage.getItem('P1-depla');
-	document.getElementById('P1-depla').value = P1depla;
-	var P1fruit = localStorage.getItem('P1-fruit');
-	document.getElementById('P1-fruit').value = P1fruit;
+	var P1nego = localStorage.getItem('P1-nego');
+	document.getElementById('P1-nego').value = P1nego;
+	var P1char = localStorage.getItem('P1-char');
+	document.getElementById('P1-char').value = P1char;
+	var P1volon = localStorage.getItem('P1-volon');
+	document.getElementById('P1-volon').value = P1volon;
+	var P1rois = localStorage.getItem('P1-rois');
+	document.getElementById('P1-rois').value = P1rois;
 	var P1hakiarm = localStorage.getItem('P1-hakiarm');
 	document.getElementById('P1-hakiarm').value = P1hakiarm;
 	var P1hakiobs = localStorage.getItem('P1-hakiobs');
@@ -135,14 +146,20 @@ function setStyles() {
 	document.getElementById('P2-menso').value = P2menso;
 	var P2connai = localStorage.getItem('P2-connai');
 	document.getElementById('P2-connai').value = P2connai;
-	var P2resialt = localStorage.getItem('P2-resialt');
-	document.getElementById('P2-resialt').value = P2resialt;
+	var P2styspe = localStorage.getItem('P2-styspe');
+	document.getElementById('P2-styspe').value = P2styspe;
+	var P2intel = localStorage.getItem('P2-intel');
+	document.getElementById('P2-intel').value = P2intel;
 	var P2perce = localStorage.getItem('P2-perce');
 	document.getElementById('P2-perce').value = P2perce;
-	var P2depla = localStorage.getItem('P2-depla');
-	document.getElementById('P2-depla').value = P2depla;
-	var P2fruit = localStorage.getItem('P2-fruit');
-	document.getElementById('P2-fruit').value = P2fruit;
+	var P2nego = localStorage.getItem('P2-nego');
+	document.getElementById('P2-nego').value = P2nego;
+	var P2char = localStorage.getItem('P2-char');
+	document.getElementById('P2-char').value = P2char;
+	var P2volon = localStorage.getItem('P2-volon');
+	document.getElementById('P2-volon').value = P2volon;
+	var P2rois = localStorage.getItem('P2-rois');
+	document.getElementById('P2-rois').value = P2rois;
 	var P2hakiarm = localStorage.getItem('P2-hakiarm');
 	document.getElementById('P2-hakiarm').value = P2hakiarm;
 	var P2hakiobs = localStorage.getItem('P2-hakiobs');
@@ -172,14 +189,20 @@ function setStyles() {
 	document.getElementById('P3-menso').value = P3menso;
 	var P3connai = localStorage.getItem('P3-connai');
 	document.getElementById('P3-connai').value = P3connai;
-	var P3resialt = localStorage.getItem('P3-resialt');
-	document.getElementById('P3-resialt').value = P3resialt;
+	var P3styspe = localStorage.getItem('P3-styspe');
+	document.getElementById('P3-styspe').value = P3styspe;
+	var P3intel = localStorage.getItem('P3-intel');
+	document.getElementById('P3-intel').value = P3intel;
 	var P3perce = localStorage.getItem('P3-perce');
 	document.getElementById('P3-perce').value = P3perce;
-	var P3depla = localStorage.getItem('P3-depla');
-	document.getElementById('P3-depla').value = P3depla;
-	var P3fruit = localStorage.getItem('P3-fruit');
-	document.getElementById('P3-fruit').value = P3fruit;
+	var P3nego = localStorage.getItem('P3-nego');
+	document.getElementById('P3-nego').value = P3nego;
+	var P3char = localStorage.getItem('P3-char');
+	document.getElementById('P3-char').value = P3char;
+	var P3volon = localStorage.getItem('P3-volon');
+	document.getElementById('P3-volon').value = P3volon;
+	var P3rois = localStorage.getItem('P3-rois');
+	document.getElementById('P3-rois').value = P3rois;
 	var P3hakiarm = localStorage.getItem('P3-hakiarm');
 	document.getElementById('P3-hakiarm').value = P3hakiarm;
 	var P3hakiobs = localStorage.getItem('P3-hakiobs');
@@ -209,14 +232,20 @@ function setStyles() {
 	document.getElementById('P4-menso').value = P4menso;
 	var P4connai = localStorage.getItem('P4-connai');
 	document.getElementById('P4-connai').value = P4connai;
-	var P4resialt = localStorage.getItem('P4-resialt');
-	document.getElementById('P4-resialt').value = P4resialt;
+	var P4styspe = localStorage.getItem('P4-styspe');
+	document.getElementById('P4-styspe').value = P4styspe;
+	var P4intel = localStorage.getItem('P4-intel');
+	document.getElementById('P4-intel').value = P4intel;
 	var P4perce = localStorage.getItem('P4-perce');
 	document.getElementById('P4-perce').value = P4perce;
-	var P4depla = localStorage.getItem('P4-depla');
-	document.getElementById('P4-depla').value = P4depla;
-	var P4fruit = localStorage.getItem('P4-fruit');
-	document.getElementById('P4-fruit').value = P4fruit;
+	var P4nego = localStorage.getItem('P4-nego');
+	document.getElementById('P4-nego').value = P4nego;
+	var P4char = localStorage.getItem('P4-char');
+	document.getElementById('P4-char').value = P4char;
+	var P4volon = localStorage.getItem('P4-volon');
+	document.getElementById('P4-volon').value = P4volon;
+	var P4rois = localStorage.getItem('P4-rois');
+	document.getElementById('P4-rois').value = P4rois;
 	var P4hakiarm = localStorage.getItem('P4-hakiarm');
 	document.getElementById('P4-hakiarm').value = P4hakiarm;
 	var P4hakiobs = localStorage.getItem('P4-hakiobs');
@@ -246,14 +275,20 @@ function setStyles() {
 	document.getElementById('P5-menso').value = P5menso;
 	var P5connai = localStorage.getItem('P5-connai');
 	document.getElementById('P5-connai').value = P5connai;
-	var P5resialt = localStorage.getItem('P5-resialt');
-	document.getElementById('P5-resialt').value = P5resialt;
+	var P5styspe = localStorage.getItem('P5-styspe');
+	document.getElementById('P5-styspe').value = P5styspe;
+	var P5intel = localStorage.getItem('P5-intel');
+	document.getElementById('P5-intel').value = P5intel;
 	var P5perce = localStorage.getItem('P5-perce');
 	document.getElementById('P5-perce').value = P5perce;
-	var P5depla = localStorage.getItem('P5-depla');
-	document.getElementById('P5-depla').value = P5depla;
-	var P5fruit = localStorage.getItem('P5-fruit');
-	document.getElementById('P5-fruit').value = P5fruit;
+	var P5nego = localStorage.getItem('P5-nego');
+	document.getElementById('P5-nego').value = P5nego;
+	var P5char = localStorage.getItem('P5-char');
+	document.getElementById('P5-char').value = P5char;
+	var P5volon = localStorage.getItem('P5-volon');
+	document.getElementById('P5-volon').value = P5volon;
+	var P5rois = localStorage.getItem('P5-rois');
+	document.getElementById('P5-rois').value = P5rois;
 	var P5hakiarm = localStorage.getItem('P5-hakiarm');
 	document.getElementById('P5-hakiarm').value = P5hakiarm;
 	var P5hakiobs = localStorage.getItem('P5-hakiobs');
@@ -273,10 +308,13 @@ function populateStorage() {
 	localStorage.setItem('P1-intimi', document.getElementById('P1-intimi').value);
 	localStorage.setItem('P1-menso', document.getElementById('P1-menso').value);
 	localStorage.setItem('P1-connai', document.getElementById('P1-connai').value);
-	localStorage.setItem('P1-resialt', document.getElementById('P1-resialt').value);
+	localStorage.setItem('P1-styspe', document.getElementById('P1-styspe').value);
+	localStorage.setItem('P1-intel', document.getElementById('P1-intel').value);
 	localStorage.setItem('P1-perce', document.getElementById('P1-perce').value);
-	localStorage.setItem('P1-depla', document.getElementById('P1-depla').value);
-	localStorage.setItem('P1-fruit', document.getElementById('P1-fruit').value);
+	localStorage.setItem('P1-nego', document.getElementById('P1-nego').value);
+	localStorage.setItem('P1-char', document.getElementById('P1-char').value);
+	localStorage.setItem('P1-volon', document.getElementById('P1-volon').value);
+	localStorage.setItem('P1-rois', document.getElementById('P1-rois').value);
 	localStorage.setItem('P1-hakiarm', document.getElementById('P1-hakiarm').value);
 	localStorage.setItem('P1-hakiobs', document.getElementById('P1-hakiobs').value);
 	localStorage.setItem('P1-pv', document.getElementById('P1-pv').value);
@@ -291,12 +329,15 @@ function populateStorage() {
 	localStorage.setItem('P2-armedist', document.getElementById('P2-armedist').value);
 	localStorage.setItem('P2-discrt', document.getElementById('P2-discrt').value);
 	localStorage.setItem('P2-intimi', document.getElementById('P2-intimi').value);
-	localStorage.setItem('P2-connai', document.getElementById('P2-connai').value);
 	localStorage.setItem('P2-menso', document.getElementById('P2-menso').value);
-	localStorage.setItem('P2-resialt', document.getElementById('P2-resialt').value);
+	localStorage.setItem('P2-connai', document.getElementById('P2-connai').value);
+	localStorage.setItem('P2-styspe', document.getElementById('P2-styspe').value);
+	localStorage.setItem('P2-intel', document.getElementById('P2-intel').value);
 	localStorage.setItem('P2-perce', document.getElementById('P2-perce').value);
-	localStorage.setItem('P2-depla', document.getElementById('P2-depla').value);
-	localStorage.setItem('P2-fruit', document.getElementById('P2-fruit').value);
+	localStorage.setItem('P2-nego', document.getElementById('P2-nego').value);
+	localStorage.setItem('P2-char', document.getElementById('P2-char').value);
+	localStorage.setItem('P2-volon', document.getElementById('P2-volon').value);
+	localStorage.setItem('P2-rois', document.getElementById('P2-rois').value);
 	localStorage.setItem('P2-hakiarm', document.getElementById('P2-hakiarm').value);
 	localStorage.setItem('P2-hakiobs', document.getElementById('P2-hakiobs').value);
 	localStorage.setItem('P2-pv', document.getElementById('P2-pv').value);
@@ -312,12 +353,15 @@ function populateStorage() {
 	localStorage.setItem('P3-armedist', document.getElementById('P3-armedist').value);
 	localStorage.setItem('P3-discrt', document.getElementById('P3-discrt').value);
 	localStorage.setItem('P3-intimi', document.getElementById('P3-intimi').value);
-	localStorage.setItem('P3-connai', document.getElementById('P3-connai').value);
 	localStorage.setItem('P3-menso', document.getElementById('P3-menso').value);
-	localStorage.setItem('P3-resialt', document.getElementById('P3-resialt').value);
+	localStorage.setItem('P3-connai', document.getElementById('P3-connai').value);
+	localStorage.setItem('P3-styspe', document.getElementById('P3-styspe').value);
+	localStorage.setItem('P3-intel', document.getElementById('P3-intel').value);
 	localStorage.setItem('P3-perce', document.getElementById('P3-perce').value);
-	localStorage.setItem('P3-depla', document.getElementById('P3-depla').value);
-	localStorage.setItem('P3-fruit', document.getElementById('P3-fruit').value);
+	localStorage.setItem('P3-nego', document.getElementById('P3-nego').value);
+	localStorage.setItem('P3-char', document.getElementById('P3-char').value);
+	localStorage.setItem('P3-volon', document.getElementById('P3-volon').value);
+	localStorage.setItem('P3-rois', document.getElementById('P3-rois').value);
 	localStorage.setItem('P3-hakiarm', document.getElementById('P3-hakiarm').value);
 	localStorage.setItem('P3-hakiobs', document.getElementById('P3-hakiobs').value);
 	localStorage.setItem('P3-pv', document.getElementById('P3-pv').value);
@@ -333,12 +377,15 @@ function populateStorage() {
 	localStorage.setItem('P4-armedist', document.getElementById('P4-armedist').value);
 	localStorage.setItem('P4-discrt', document.getElementById('P4-discrt').value);
 	localStorage.setItem('P4-intimi', document.getElementById('P4-intimi').value);
-	localStorage.setItem('P4-connai', document.getElementById('P4-connai').value);
 	localStorage.setItem('P4-menso', document.getElementById('P4-menso').value);
-	localStorage.setItem('P4-resialt', document.getElementById('P4-resialt').value);
+	localStorage.setItem('P4-connai', document.getElementById('P4-connai').value);
+	localStorage.setItem('P4-styspe', document.getElementById('P4-styspe').value);
+	localStorage.setItem('P4-intel', document.getElementById('P4-intel').value);
 	localStorage.setItem('P4-perce', document.getElementById('P4-perce').value);
-	localStorage.setItem('P4-depla', document.getElementById('P4-depla').value);
-	localStorage.setItem('P4-fruit', document.getElementById('P4-fruit').value);
+	localStorage.setItem('P4-nego', document.getElementById('P4-nego').value);
+	localStorage.setItem('P4-char', document.getElementById('P4-char').value);
+	localStorage.setItem('P4-volon', document.getElementById('P4-volon').value);
+	localStorage.setItem('P4-rois', document.getElementById('P4-rois').value);
 	localStorage.setItem('P4-hakiarm', document.getElementById('P4-hakiarm').value);
 	localStorage.setItem('P4-hakiobs', document.getElementById('P4-hakiobs').value);
 	localStorage.setItem('P4-pv', document.getElementById('P4-pv').value);
@@ -354,12 +401,15 @@ function populateStorage() {
 	localStorage.setItem('P5-armedist', document.getElementById('P5-armedist').value);
 	localStorage.setItem('P5-discrt', document.getElementById('P5-discrt').value);
 	localStorage.setItem('P5-intimi', document.getElementById('P5-intimi').value);
-	localStorage.setItem('P5-connai', document.getElementById('P5-connai').value);
 	localStorage.setItem('P5-menso', document.getElementById('P5-menso').value);
-	localStorage.setItem('P5-resialt', document.getElementById('P5-resialt').value);
+	localStorage.setItem('P5-connai', document.getElementById('P5-connai').value);
+	localStorage.setItem('P5-styspe', document.getElementById('P5-styspe').value);
+	localStorage.setItem('P5-intel', document.getElementById('P5-intel').value);
 	localStorage.setItem('P5-perce', document.getElementById('P5-perce').value);
-	localStorage.setItem('P5-depla', document.getElementById('P5-depla').value);
-	localStorage.setItem('P5-fruit', document.getElementById('P5-fruit').value);
+	localStorage.setItem('P5-nego', document.getElementById('P5-nego').value);
+	localStorage.setItem('P5-char', document.getElementById('P5-char').value);
+	localStorage.setItem('P5-volon', document.getElementById('P5-volon').value);
+	localStorage.setItem('P5-rois', document.getElementById('P5-rois').value);
 	localStorage.setItem('P5-hakiarm', document.getElementById('P5-hakiarm').value);
 	localStorage.setItem('P5-hakiobs', document.getElementById('P5-hakiobs').value);
 	localStorage.setItem('P5-pv', document.getElementById('P5-pv').value);
