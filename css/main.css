@@ -1311,6 +1311,9 @@ fieldset {
 	margin-left: 20px;
 	max-width: 20%;
 }
+.nbUtils{
+	width: 30%;
+}
 .txt-list{
 	margin: auto;
 }
